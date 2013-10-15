@@ -47,4 +47,16 @@ public class Producto {
 	public void setPrecios(Collection<Precio> precios) {
 		this.precios = precios;
 	}
+
+	public ArrayList<Precio> buscarMejorPrecio(){
+		ArrayList<Precio> mejoresPrecios = new ArrayList<Precio>();
+		
+		//Obtener los precios del producto y devolver en un Array
+		//Estos tienen los Super donde lo podes encontrar en que zona
+		//y la direccion.
+		//para el calculo de estadisticas
+		
+		return mejoresPrecios;
+	}
+
 }

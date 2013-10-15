@@ -2,6 +2,7 @@ package com.server;
 
 public class Almacen {
 	private String nombre;
+	private String direccion;
 	private String zona;
 	
 	public Almacen(String nombre, String zona){
@@ -24,5 +25,14 @@ public class Almacen {
 	public void setZona(String zona) {
 		this.zona = zona;
 	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+
 
 }

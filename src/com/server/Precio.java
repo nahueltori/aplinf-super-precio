@@ -27,5 +27,4 @@ public class Precio {
 	public void setAlmacenes(Collection<Almacen> almacenes) {
 		this.almacenes = almacenes;
 	}
-
 }
